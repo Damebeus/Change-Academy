@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Welcome from "./Welcome/Welcome";
 
 function index() {
   return (
     <div>
-      <h1>hola</h1>
+      <Welcome />
     </div>
-  )
+  );
 }
 
-export default index
+export default index;

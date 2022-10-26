@@ -1,0 +1,25 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: wheat;
+}
+
+.subcontainer {
+  display: flex;
+}
+.circulo {
+  position: absolute;
+  background-color: slategrey;
+  height: 70vh;
+  width: 45vw;
+  border-radius: 0px 0px 1000px 0px;
+}
+.imagen {
+  background-color: blanchedalmond;
+  height: 60vh;
+  width: 100vw;
+  background-image: url("../../../assets/mesa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
