@@ -1,16 +1,16 @@
 .navbar {
   width: 100vw;
   height: 10vh;
-  background-color: wheat;
+  background-color: #ffff;
 }
 
-.subcontainer {
-  display: flex;
-}
 .circulo {
   position: absolute;
-  background-color: slategrey;
-  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--pastelMora);
+  height: 65vh;
   width: 45vw;
   border-radius: 0px 0px 1000px 0px;
 }
@@ -22,4 +22,38 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.contenido {
+  padding-left: 50px;
+}
+.titulo {
+  /*  text-align: center; */
+  height: 15vh;
+  width: 80%;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.titulo h1 {
+  color: var(--blanco);
+  font-weight: 400;
+  font-size: 50px;
+}
+.titulo span {
+  font-weight: bold;
+}
+
+.boton button {
+  border-radius: 35px;
+  padding: 15px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  margin-top: 120px;
+  cursor: pointer;
+}
+.boton button span {
+  color: var(--negro);
+  font-size: 25px;
 }
