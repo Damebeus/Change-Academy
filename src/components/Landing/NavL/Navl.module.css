@@ -1,91 +1,130 @@
-/* QUITAR ESPACIO */
-* {
-    margin:0
-}
-
 /* POSICION BOTONES */
 
 .ul {
-    display:flex;
-    justify-content: space-between;
-
-} 
+  display: flex;
+  justify-content: space-between;
+}
 
 /* DIV  */
 
 .nav {
-    width: 100vw;
-    height: 10vh;
-    background-color: rgb(58, 91, 141);
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(58, 91, 141);
 }
 
 /* BOTONES!!  */
 
 .btns {
-   
-    padding-top:27.5px;
-    text-decoration: none;
-    background: none;
-    border:none;
+  padding-top: 27.5px;
+  text-decoration: none;
+  background: none;
+  border: none;
 }
-
 
 /* PRIMER BOTON  */
 
 .firstbtn {
-    font-size:30px;
-    font-family: 'Silkscreen', cursive;
-    position:absolute;
-    top:15px;
-    color:rgb(112, 162, 255)
+  font-size: 30px;
+  font-family: "Silkscreen", cursive;
+  position: absolute;
+  top: 15px;
+  color: rgb(112, 162, 255);
 }
 .e {
-    font-family: 'Silkscreen', cursive;
-    color:rgb(253, 128, 201);
-    
+  font-family: "Silkscreen", cursive;
+  color: rgb(253, 128, 201);
 }
-
 
 /* BOTONES DEL MEDIO  */
 .midbtn {
-    border:black 1px solid;
-    padding:5px 25px;
-    color:rgba(255, 255, 255, 0.945);
-    background-color: rgb(94, 121, 156);
-
+  border: black 1px solid;
+  padding: 5px 25px;
+  color: rgba(255, 255, 255, 0.945);
+  background-color: rgb(94, 121, 156);
 }
-
-
-
-
 
 /* ULTIMO BOTON  */
 
-
 .lastbtn {
-position:absolute;
-right:80px;
-top:15.5px;
-font-size:20.5px;
+  position: absolute;
+  right: 80px;
+  top: 15.5px;
+  font-size: 20.5px;
 
-background-color: rgb(0, 0, 0);
-color:rgba(255, 255, 255, 0.945);
-border:rgb(39, 207, 236) 2px solid;
-padding:4px 20px;
-font-family: 'Silkscreen', cursive;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.945);
+  border: rgb(39, 207, 236) 2px solid;
+  padding: 4px 20px;
+  font-family: "Silkscreen", cursive;
 }
 
 .lastbtn:hover {
-    border:rgb(255, 14, 203) 2px solid;
-    color:rgba(20, 160, 241, 0.945);
+  border: rgb(255, 14, 203) 2px solid;
+  color: rgba(20, 160, 241, 0.945);
 }
 .lastbtn:active {
-    border:rgb(0, 81, 255) 2px solid;
-    color:rgb(0, 225, 255);
-    background-color: rgb(20, 10, 48);
+  border: rgb(0, 81, 255) 2px solid;
+  color: rgb(0, 225, 255);
+  background-color: rgb(20, 10, 48);
 }
 
+/* ULTIMO BOTON  */
 
+/* los estilos de ebeus */
 
- /* ULTIMO BOTON  */
+/* siempre empezando desde arriba en orden de importancia */
+.container {
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* accediendo a subelementos, nos ahorramos llenar de Class el codigo, y hacer que sea mas legible */
+.logo h2 {
+  font-size: 35px;
+  font-family: "Silkscreen", cursive;
+  color: var(--celeste);
+}
+.logo span {
+  font-family: "Silkscreen", cursive;
+  color: var(--marron);
+}
+/* botones centrales */
+.secciones {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  user-select: none;
+}
+.secciones span {
+  font-family: "Silkscreen", cursive;
+  font-size: 18px;
+  cursor: pointer;
+}
+.secciones span:hover {
+  color: var(--celeste);
+  transition: 0.4s;
+}
+/* boton empieza ya */
 
+.botones button {
+  background-color: var(--negro);
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+}
+.botones button:hover {
+  background-color: darkgray;
+  transition: 0.4s;
+}
+.botones span {
+  color: var(--blanco);
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}

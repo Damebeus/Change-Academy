@@ -17,7 +17,7 @@ function Welcome() {
             </div>
             <div className={style.boton}>
               <button>
-                <span>Empieza ya</span>
+                <span>Ver cursos</span>
               </button>
             </div>
           </div>
