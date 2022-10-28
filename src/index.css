@@ -13,8 +13,9 @@ code {
     monospace;
 }
 :root {
-  --pastelMora: #9785d6;
-  --pastelRosa: #e99dcb;
-  --negro: #171430;
+  --verde: #75fd92;
+  --marron: #d8b53a;
+  --celeste: #1acbe9;
   --blanco: #ffffff;
+  --negro: #000005;
 }

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import style from "./NuestroStack.module.css";
 
 function NuestroStack() {
-  return (
-    <div>NuestroStack</div>
-  )
+  return <div>NuestroStack</div>;
 }
 
-export default NuestroStack
+export default NuestroStack;
