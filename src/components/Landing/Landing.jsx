@@ -8,8 +8,8 @@ import Opiniones from "./Opiniones/Opiniones";
 function Landing() {
   return (
     <div>
-      {/*    <Navl /> */}
-      <Welcome />
+      {    <Navl /> }
+      {<Welcome />}
       {/*     <NuestroStack /> */}
       {/*     <Vision />
       <Opiniones /> */}
